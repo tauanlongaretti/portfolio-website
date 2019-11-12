@@ -276,6 +276,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.2em;
+		display: inline-block;
 	}
 
 	h3 {
@@ -2409,7 +2410,34 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-/* Image */
+
+	/* Responsibility List */
+	.responsibility-list {
+		margin-bottom: 10px;
+	}
+
+	/* Contact Information */
+	.contact {
+		text-align: center;
+		margin-bottom: -100px;
+	}	
+
+	.contact-info{
+		margin: 0 10px;
+		text-decoration: none;
+	}
+
+
+	/* Banner */
+	.profilePicture {
+		border-radius: 100%;
+		max-width: 25%;
+		display: block;
+		margin: 80px auto;
+		position: relative;
+	}
+
+	/* Image */
 
 	.image {
 		border-radius: 5px;
@@ -3375,10 +3403,21 @@ input, select, textarea {
 			opacity: 1;
 		}
 
+/* Skills */
+	.lists {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 60px;
+	}
+
+	.unordered-list {
+		margin: 40px 25px 0 25px;
+	}
+
 /* Banner */
 
 	#banner {
-		padding: 10em 0 4.75em 0 ;
+		padding: 0em 0 4.75em 0 ;
 	}
 
 		#banner .inner {
